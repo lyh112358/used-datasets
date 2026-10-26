@@ -1,0 +1,5 @@
+test_fc 3.0
+val_fc 2.0
+fc 3.0 n 39
+fc 2.0 n 33
+fc 1.0 n 27

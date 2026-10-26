@@ -1,0 +1,7 @@
+table,field,tag,reason
+"hourly.parquet","SepsisLabel","结局","官方结局。脓毒症病人从临床起点前 6 小时起为 1，非脓毒症病人全为 0。不是床旁测量，不能当作特征。"
+"hourly.parquet","HR O2Sat Temp SBP MAP DBP Resp EtCO2","无","逐小时体征。缺失保持为空，不填 0。"
+"hourly.parquet","BaseExcess HCO3 FiO2 pH PaCO2 SaO2 AST BUN Alkalinephos Calcium Chloride Creatinine Bilirubin_direct Glucose Lactate Magnesium Phosphate Potassium Bilirubin_total TroponinI Hct Hgb PTT WBC Fibrinogen Platelets","无","逐小时化验。缺失保持为空，不填 0。"
+"hourly.parquet","Age Gender Unit1 Unit2 HospAdmTime","无","入 ICU 时已能知道的描述，每个小时重复同一值。缺失保持为空。"
+"hourly.parquet","ICULOS","无","当前这一小时距入 ICU 的小时数，是时间坐标，不是出院时才知道的总住院日。"
+"hourly.parquet","set patient_id","键","官方训练集 A 或 B，以及文件名中的病人编号。"

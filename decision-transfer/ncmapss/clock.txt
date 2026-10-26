@@ -1,0 +1,7 @@
+reference DS02 development units
+life_p30 68.5
+decision_cycle 60
+visible_before 33.0
+horizon 10
+horizon_end 70
+note C-MAPSS 的 80 下限是那份数据的周期尺度，这里不搬用。

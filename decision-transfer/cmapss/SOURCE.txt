@@ -1,0 +1,15 @@
+来源：NASA Prognostics Center of Excellence，C-MAPSS 涡扇发动机退化仿真。
+下载：https://data.nasa.gov/docs/legacy/CMAPSSData.zip
+说明页：https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data
+文献：Saxena, Goebel, Simon, Eklund. PHM08, 2008.
+MD5 79a22f36e80606c69d0e9e4da5bb2b7a
+SHA256 74bef434a34db25c7bf72e668ea4cd52afe5f2cf8e44367c55a82bfd91a5a34f
+字节 12425978
+
+发动机数与 RUL 行数一致：
+FD001 训练 100，测试 100
+FD002 训练 260，测试 259
+FD003 训练 100，测试 100
+FD004 训练 249，测试 248
+
+每行 26 列：发动机编号、循环、3 个工况、21 个传感器。测试集在失效前截断，RUL 文件给出截断后的剩余循环。

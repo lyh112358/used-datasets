@@ -1,0 +1,11 @@
+patients 40336
+sepsis_patients 2932
+hours 1552210
+setA patients 20336 sepsis 1790 hours 790215 icu_gap 0 age_change 0 gender_change 0
+setB patients 20000 sepsis 1142 hours 761995 icu_gap 0 age_change 0 gender_change 0
+label_revert 0
+empty_cells 0
+EtCO2_null 1494574
+SepsisLabel_null 0
+official patients 40336 sepsis 2932
+OVERALL PASS

@@ -1,0 +1,27 @@
+table,field,tag,reason
+courses.csv,code_module,无,课程编号
+courses.csv,code_presentation,无,学期，B为二月，J为十月
+courses.csv,module_presentation_length,无,课长，天
+studentInfo.csv,gender,无,注册时已知
+studentInfo.csv,region,无,注册时已知
+studentInfo.csv,highest_education,无,注册时已知
+studentInfo.csv,imd_band,无,注册时已知
+studentInfo.csv,age_band,无,注册时已知
+studentInfo.csv,num_of_prev_attempts,无,注册时已知
+studentInfo.csv,studied_credits,无,注册时已知
+studentInfo.csv,disability,无,注册时已知
+studentInfo.csv,final_result,结局,Pass、Distinction、Fail、Withdrawn 四个都保留
+studentRegistration.csv,date_registration,无,相对开学日的注册日
+studentRegistration.csv,date_unregistration,泄露,官方说明：退课者此字段有日期且结局为 Withdrawn，读完者为空
+vle.csv,activity_type,无,材料类型，课程安排
+vle.csv,week_from,无,计划使用周
+vle.csv,week_to,无,计划使用周
+studentVle.csv,date,无,相对开学日的点击日，这一步不截断
+studentVle.csv,sum_click,无,当日该材料点击次数
+assessments.csv,assessment_type,无,CMA、TMA 或 Exam，课表
+assessments.csv,date,无,截止日，相对开学日
+assessments.csv,weight,无,权重是课表，不是学生分数
+studentAssessment.csv,date_submitted,无,CMA/TMA 的提交日；Exam 的提交日另标
+studentAssessment.csv,is_banked,无,是否沿用以往学期成绩
+studentAssessment.csv,score,无,CMA/TMA 过程分保留；Exam 分数另标
+student_assessment_marked.csv,score_exam,期末才有,assessment_type 为 Exam 的分数和提交日

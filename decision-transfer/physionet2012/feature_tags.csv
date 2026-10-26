@@ -1,0 +1,7 @@
+table,field,tag,reason
+measurements.parquet,parameter/value,无,48 小时内的入院、体重、体征、化验，这一步不截断
+outcomes.csv,In-hospital_death,结局,是否院内死亡
+outcomes.csv,Length_of_stay,期末才有,出院才知道的住院天数
+outcomes.csv,Survival,期末才有,出院才知道的存活天数
+outcomes.csv,SAPS-I,无法预警,结局文件里的汇总分，不是逐次测量
+outcomes.csv,SOFA,无法预警,结局文件里的汇总分，不是逐次测量
