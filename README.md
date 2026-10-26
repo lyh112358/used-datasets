@@ -17,6 +17,7 @@ Missing scores are left missing.
 | LSTM recall experiments | `ml-early-warning/private` | Same effect version. Not copied again. |
 | Tabular foundation model | `ml-early-warning/private` and `tabpfn-admit/oulad-align-t2` | Same institutional effect version, plus the OULAD T=2 offerings used there. |
 | Landing search | `landing/advanced` and `landing/advanced_raw` | Two later versions, T=2 and T=3 only. |
+| Knowledge tracing, before the effect tables | `kt-eventstream` | Hashed `SID` plus knowledge-state summaries. This is an earlier version, not a copy of `ml-early-warning/private`. |
 | Cross-table decisions | `decision-transfer/` | Separate sources below. |
 
 ## Decision-transfer sources
